@@ -14,10 +14,9 @@ const { NotImplementedError } = require('../extensions/index.js');
  * 
  */
 
-let df = [1, 2, 3, '--discard-prev', 4, 5];
 
 function transform(arr) {
-  let result;
+  /* let result;
   for (let i = 0; i < arr.length; i++) {
 
     if (arr[i] == '--discard-next' &&
@@ -66,11 +65,9 @@ function transform(arr) {
       }
     }
   }
-  return arr;
+  return arr; */
 }
 
-
-console.log(transform(df));
 
 
 
